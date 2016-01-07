@@ -1,0 +1,7 @@
+<h3>Aquí puede ver todas las preguntas.</h3>
+
+<ul>
+<% for(var i=0; i<lista.length; i++) {%>
+      <li><a href="/quizes/question/<%= i+1 %>"><%- lista[i] %></a></li>
+<% } %>
+</ul>﻿
